@@ -1,11 +1,21 @@
 package cl.acqui.api.core.review;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
 public class Review {
+  @Getter
   private final int productId;
+  @Getter
   private final int reviewId;
+  @Getter
   private final String author;
+  @Getter
   private final String subject;
+  @Getter
   private final String content;
+  @Getter
   private final String serviceAddress;
 
   public Review() {
@@ -15,45 +25,5 @@ public class Review {
     subject = null;
     content = null;
     serviceAddress = null;
-  }
-
-  public Review(
-    int productId,
-    int reviewId,
-    String author,
-    String subject,
-    String content,
-    String serviceAddress) {
-
-    this.productId = productId;
-    this.reviewId = reviewId;
-    this.author = author;
-    this.subject = subject;
-    this.content = content;
-    this.serviceAddress = serviceAddress;
-  }
-
-  public int getProductId() {
-    return productId;
-  }
-
-  public int getReviewId() {
-    return reviewId;
-  }
-
-  public String getAuthor() {
-    return author;
-  }
-
-  public String getSubject() {
-    return subject;
-  }
-
-  public String getContent() {
-    return content;
-  }
-
-  public String getServiceAddress() {
-    return serviceAddress;
   }
 }

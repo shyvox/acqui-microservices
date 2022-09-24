@@ -1,26 +1,15 @@
 package cl.acqui.api.composite.product;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+@AllArgsConstructor
 public class RecommendationSummary {
 
+  @Getter
   private final int recommendationId;
+  @Getter
   private final String author;
+  @Getter
   private final int rate;
 
-  public RecommendationSummary(int recommendationId, String author, int rate) {
-    this.recommendationId = recommendationId;
-    this.author = author;
-    this.rate = rate;
-  }
-
-  public int getRecommendationId() {
-    return recommendationId;
-  }
-
-  public String getAuthor() {
-    return author;
-  }
-
-  public int getRate() {
-    return rate;
-  }
 }
