@@ -1,21 +1,12 @@
 package cl.acqui.api.core.recommendation;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-
-@AllArgsConstructor
 public class Recommendation {
-  @Getter
+
   private final int productId;
-  @Getter
   private final int recommendationId;
-  @Getter
   private final String author;
-  @Getter
   private final int rate;
-  @Getter
   private final String content;
-  @Getter
   private final String serviceAddress;
 
   public Recommendation() {
@@ -25,5 +16,45 @@ public class Recommendation {
     rate = 0;
     content = null;
     serviceAddress = null;
+  }
+
+  public Recommendation(
+    int productId,
+    int recommendationId,
+    String author,
+    int rate,
+    String content,
+    String serviceAddress) {
+
+    this.productId = productId;
+    this.recommendationId = recommendationId;
+    this.author = author;
+    this.rate = rate;
+    this.content = content;
+    this.serviceAddress = serviceAddress;
+  }
+
+  public int getProductId() {
+    return productId;
+  }
+
+  public int getRecommendationId() {
+    return recommendationId;
+  }
+
+  public String getAuthor() {
+    return author;
+  }
+
+  public int getRate() {
+    return rate;
+  }
+
+  public String getContent() {
+    return content;
+  }
+
+  public String getServiceAddress() {
+    return serviceAddress;
   }
 }

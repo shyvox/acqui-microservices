@@ -8,12 +8,13 @@ import org.springframework.http.HttpStatus;
 
 public class HttpErrorInfo {
 
-  @Getter
+
+
   private final ZonedDateTime timestamp;
-  @Getter
+
   private final String path;
   private final HttpStatus httpStatus;
-  @Getter
+
   private final String message;
 
   public HttpErrorInfo() {
@@ -36,5 +37,19 @@ public class HttpErrorInfo {
   public String getError() {
     return httpStatus.getReasonPhrase();
   }
-
+  public ZonedDateTime getTimestamp() {
+    return timestamp;
   }
+
+  public String getPath() {
+    return path;
+  }
+
+  public HttpStatus getHttpStatus() {
+    return httpStatus;
+  }
+
+  public String getMessage() {
+    return message;
+  }
+}

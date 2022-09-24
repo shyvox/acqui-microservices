@@ -6,19 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="c5c8026f-f978-43fd-8164-b4fd6bb4e0d3" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ProductAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ProductAggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ProductCompositeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ProductCompositeService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/RecommendationSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/RecommendationSummary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ReviewSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ReviewSummary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ServiceAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ServiceAddresses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/product/ProductService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/recommendation/Recommendation.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/recommendation/Recommendation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/recommendation/RecommendationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/recommendation/RecommendationService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/review/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/review/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/review/ReviewService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/review/ReviewService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/util/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/src/main/java/cl/acqui/util/http/HttpErrorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/main/java/cl/acqui/util/http/HttpErrorInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664044454370</updated>
-      <workItem from="1664044458738" duration="4901000" />
+      <workItem from="1664044458738" duration="5495000" />
     </task>
     <servers />
   </component>

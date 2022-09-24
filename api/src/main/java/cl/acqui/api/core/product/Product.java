@@ -1,16 +1,9 @@
 package cl.acqui.api.core.product;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-@AllArgsConstructor
 public class Product {
-  @Getter
   private final int productId;
-  @Getter
   private final String name;
-  @Getter
   private final int weight;
-  @Getter
   private final String serviceAddress;
 
   public Product() {
@@ -18,5 +11,28 @@ public class Product {
     name = null;
     weight = 0;
     serviceAddress = null;
+  }
+
+  public Product(int productId, String name, int weight, String serviceAddress) {
+    this.productId = productId;
+    this.name = name;
+    this.weight = weight;
+    this.serviceAddress = serviceAddress;
+  }
+
+  public int getProductId() {
+    return productId;
+  }
+
+  public String getName() {
+    return name;
+  }
+
+  public int getWeight() {
+    return weight;
+  }
+
+  public String getServiceAddress() {
+    return serviceAddress;
   }
 }
