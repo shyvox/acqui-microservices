@@ -4,16 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5c8026f-f978-43fd-8164-b4fd6bb4e0d3" name="Changes" comment="">
+    <list default="true" id="c5c8026f-f978-43fd-8164-b4fd6bb4e0d3" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.0/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ProductAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ProductAggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/RecommendationSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/RecommendationSummary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ReviewSummary.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ReviewSummary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ServiceAddresses.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ServiceAddresses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/recommendation/Recommendation.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/recommendation/Recommendation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/review/Review.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/review/Review.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/src/main/java/cl/acqui/util/http/HttpErrorInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/util/src/main/java/cl/acqui/util/http/HttpErrorInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ProductCompositeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ProductCompositeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-composite-service/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-composite-service/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-composite-service/src/main/java/cl/acqui/microservices/composite/product/ProductCompositeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/main/java/cl/acqui/microservices/composite/product/ProductCompositeServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservices/product-composite-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-em-all.bash" beforeDir="false" afterPath="$PROJECT_DIR$/test-em-all.bash" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,16 +39,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/loopcifer/workspace/spring-workspace/acqui-microservices",
-    "nodejs_package_manager_path": "npm",
-    "spring.configuration.checksum": "cb498e47d9478dfb6c48ac334b8cf47a"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/loopcifer/workspace/spring-workspace/acqui-microservices&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;cb498e47d9478dfb6c48ac334b8cf47a&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -92,7 +95,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664044454370</updated>
-      <workItem from="1664044458738" duration="5495000" />
+      <workItem from="1664044458738" duration="10635000" />
+      <workItem from="1664073764534" duration="48000" />
+      <workItem from="1664125930090" duration="4857000" />
     </task>
     <servers />
   </component>
