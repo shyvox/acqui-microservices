@@ -3,19 +3,11 @@ package cl.acqui.api.composite.product;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 
-@AllArgsConstructor
 public class RecommendationSummary {
 
-  @Getter
   private final int recommendationId;
-
-  @Getter
   private final String author;
-
-  @Getter
   private final int rate;
-
-  @Getter
   private final String content;
 
   public RecommendationSummary() {
@@ -23,5 +15,28 @@ public class RecommendationSummary {
     this.author = null;
     this.rate = 0;
     this.content = null;
+  }
+
+  public RecommendationSummary(int recommendationId, String author, int rate, String content) {
+    this.recommendationId = recommendationId;
+    this.author = author;
+    this.rate = rate;
+    this.content = content;
+  }
+
+  public int getRecommendationId() {
+    return recommendationId;
+  }
+
+  public String getAuthor() {
+    return author;
+  }
+
+  public int getRate() {
+    return rate;
+  }
+
+  public String getContent() {
+    return content;
   }
 }

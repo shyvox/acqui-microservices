@@ -1,12 +1,11 @@
 package cl.acqui.microservices.core.recommendation.services;
 
 import java.util.List;
-
-import cl.acqui.api.core.recommendation.Recommendation;
-import cl.acqui.microservices.core.recommendation.persistence.RecommendationEntity;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
+import cl.acqui.api.core.recommendation.Recommendation;
+import cl.acqui.microservices.core.recommendation.persistence.RecommendationEntity;
 
 @Mapper(componentModel = "spring")
 public interface RecommendationMapper {
