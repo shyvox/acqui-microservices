@@ -1,12 +1,18 @@
 package cl.acqui.util.http;
 
 import java.time.ZonedDateTime;
+
+import lombok.Getter;
 import org.springframework.http.HttpStatus;
 
+
 public class HttpErrorInfo {
+
   private final ZonedDateTime timestamp;
+
   private final String path;
   private final HttpStatus httpStatus;
+
   private final String message;
 
   public HttpErrorInfo() {
@@ -22,7 +28,13 @@ public class HttpErrorInfo {
     this.path = path;
     this.message = message;
   }
+  public int getStatus() {
+    return httpStatus.value();
+  }
 
+  public String getError() {
+    return httpStatus.getReasonPhrase();
+  }
   public ZonedDateTime getTimestamp() {
     return timestamp;
   }
@@ -31,12 +43,8 @@ public class HttpErrorInfo {
     return path;
   }
 
-  public int getStatus() {
-    return httpStatus.value();
-  }
-
-  public String getError() {
-    return httpStatus.getReasonPhrase();
+  public HttpStatus getHttpStatus() {
+    return httpStatus;
   }
 
   public String getMessage() {

@@ -4,88 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5c8026f-f978-43fd-8164-b4fd6bb4e0d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0/dependencies-accessors/dependencies-accessors.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0/dependencies-accessors/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/7.0/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ProductAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ProductCompositeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/RecommendationSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ReviewSummary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/composite/product/ServiceAddresses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/product/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/product/ProductService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/recommendation/Recommendation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/recommendation/RecommendationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/review/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/core/review/ReviewService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/exceptions/InvalidInputException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/java/cl/acqui/api/exceptions/NotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/create-projects.bash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-composite-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-composite-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-composite-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-composite-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/main/java/cl/acqui/microservices/composite/product/ProductCompositeServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/main/java/cl/acqui/microservices/composite/product/services/ProductCompositeIntegration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/main/java/cl/acqui/microservices/composite/product/services/ProductCompositeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-composite-service/src/test/java/cl/acqui/microservices/composite/product/ProductCompositeServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-service/src/main/java/cl/acqui/microservices/core/product/ProductServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-service/src/main/java/cl/acqui/microservices/core/product/services/ProductServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/product-service/src/test/java/cl/acqui/microservices/core/product/ProductServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/recommendation-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/recommendation-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/recommendation-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/recommendation-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/recommendation-service/src/main/java/cl/acqui/microservices/core/recommendation/RecommendationServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/recommendation-service/src/main/java/cl/acqui/microservices/core/recommendation/services/RecommendationServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/recommendation-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/recommendation-service/src/test/java/cl/acqui/microservices/core/recommendation/RecommendationServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/review-service/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/review-service/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/review-service/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/review-service/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/review-service/src/main/java/cl/acqui/microservices/core/review/ReviewServiceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/review-service/src/main/java/cl/acqui/microservices/core/review/services/ReviewServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/review-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservices/review-service/src/test/java/cl/acqui/microservices/core/review/ReviewServiceApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test-em-all.bash" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/cl/acqui/util/http/GlobalControllerExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/cl/acqui/util/http/HttpErrorInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/util/src/main/java/cl/acqui/util/http/ServiceUtil.java" afterDir="false" />
+    <list default="true" id="c5c8026f-f978-43fd-8164-b4fd6bb4e0d3" name="Changes" comment="first commit">
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,27 +18,55 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="true" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaInspector" value="false" />
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FE5XazuKQAAmxGbbIUvHZ9DlRy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/loopcifer/workspace/spring-workspace/acqui-microservices",
-    "spring.configuration.checksum": "cb498e47d9478dfb6c48ac334b8cf47a"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/loopcifer/workspace/spring-workspace/acqui-microservices&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;cb498e47d9478dfb6c48ac334b8cf47a&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -163,7 +112,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1664044454370</updated>
-      <workItem from="1664044458738" duration="2511000" />
+      <workItem from="1664044458738" duration="10635000" />
+      <workItem from="1664073764534" duration="48000" />
+      <workItem from="1664125930090" duration="7866000" />
+      <workItem from="1664330122765" duration="202000" />
+      <workItem from="1664330337576" duration="6120000" />
+      <workItem from="1664337182515" duration="2145000" />
+      <workItem from="1664342862653" duration="1385000" />
+      <workItem from="1664371164310" duration="3760000" />
     </task>
     <servers />
   </component>
