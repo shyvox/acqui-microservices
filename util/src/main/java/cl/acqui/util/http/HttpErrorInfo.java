@@ -8,8 +8,6 @@ import org.springframework.http.HttpStatus;
 
 public class HttpErrorInfo {
 
-
-
   private final ZonedDateTime timestamp;
 
   private final String path;

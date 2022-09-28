@@ -1,7 +1,9 @@
 package cl.acqui.api.composite.product;
 
-public class ServiceAddresses {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
+public class ServiceAddresses {
   private final String cmp;
   private final String pro;
   private final String rev;
@@ -15,10 +17,10 @@ public class ServiceAddresses {
   }
 
   public ServiceAddresses(
-    String compositeAddress,
-    String productAddress,
-    String reviewAddress,
-    String recommendationAddress) {
+          String compositeAddress,
+          String productAddress,
+          String reviewAddress,
+          String recommendationAddress) {
 
     this.cmp = compositeAddress;
     this.pro = productAddress;

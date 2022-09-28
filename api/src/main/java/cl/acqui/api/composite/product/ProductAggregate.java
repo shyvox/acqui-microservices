@@ -1,9 +1,11 @@
 package cl.acqui.api.composite.product;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
 import java.util.List;
 
 public class ProductAggregate {
-
   private final int productId;
   private final String name;
   private final int weight;
@@ -11,13 +13,22 @@ public class ProductAggregate {
   private final List<ReviewSummary> reviews;
   private final ServiceAddresses serviceAddresses;
 
+  public ProductAggregate() {
+    productId = 0;
+    name = null;
+    weight = 0;
+    recommendations = null;
+    reviews = null;
+    serviceAddresses = null;
+  }
+
   public ProductAggregate(
-    int productId,
-    String name,
-    int weight,
-    List<RecommendationSummary> recommendations,
-    List<ReviewSummary> reviews,
-    ServiceAddresses serviceAddresses) {
+          int productId,
+          String name,
+          int weight,
+          List<RecommendationSummary> recommendations,
+          List<ReviewSummary> reviews,
+          ServiceAddresses serviceAddresses) {
 
     this.productId = productId;
     this.name = name;
@@ -51,3 +62,4 @@ public class ProductAggregate {
     return serviceAddresses;
   }
 }
+
