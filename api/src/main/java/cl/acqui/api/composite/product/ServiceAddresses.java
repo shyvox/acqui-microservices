@@ -1,10 +1,21 @@
 package cl.acqui.api.composite.product;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
 public class ServiceAddresses {
 
+  @Getter
   private final String cmp;
+
+  @Getter
   private final String pro;
+
+  @Getter
   private final String rev;
+
+  @Getter
   private final String rec;
 
   public ServiceAddresses() {
@@ -12,33 +23,5 @@ public class ServiceAddresses {
     pro = null;
     rev = null;
     rec = null;
-  }
-
-  public ServiceAddresses(
-    String compositeAddress,
-    String productAddress,
-    String reviewAddress,
-    String recommendationAddress) {
-
-    this.cmp = compositeAddress;
-    this.pro = productAddress;
-    this.rev = reviewAddress;
-    this.rec = recommendationAddress;
-  }
-
-  public String getCmp() {
-    return cmp;
-  }
-
-  public String getPro() {
-    return pro;
-  }
-
-  public String getRev() {
-    return rev;
-  }
-
-  public String getRec() {
-    return rec;
   }
 }

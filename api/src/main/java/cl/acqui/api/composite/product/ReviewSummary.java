@@ -1,26 +1,27 @@
 package cl.acqui.api.composite.product;
 
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+@AllArgsConstructor
 public class ReviewSummary {
 
+  @Getter
   private final int reviewId;
+
+  @Getter
   private final String author;
+
+  @Getter
   private final String subject;
 
-  public ReviewSummary(int reviewId, String author, String subject) {
-    this.reviewId = reviewId;
-    this.author = author;
-    this.subject = subject;
-  }
+  @Getter
+  private final String content;
 
-  public int getReviewId() {
-    return reviewId;
-  }
-
-  public String getAuthor() {
-    return author;
-  }
-
-  public String getSubject() {
-    return subject;
+  public ReviewSummary() {
+    this.reviewId = 0;
+    this.author = null;
+    this.subject = null;
+    this.content = null;
   }
 }
