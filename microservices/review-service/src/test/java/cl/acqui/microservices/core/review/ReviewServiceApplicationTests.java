@@ -22,7 +22,8 @@ import cl.acqui.microservices.core.review.persistence.ReviewRepository;
 
 @SpringBootTest(webEnvironment = RANDOM_PORT, properties = {
         "spring.cloud.stream.defaultBinder=rabbit",
-        "logging.level.se.magnus=DEBUG"})
+        "logging.level.cl.acqui=DEBUG",
+        "eureka.client.enabled=false"})
 class ReviewServiceApplicationTests extends MySqlTestBase {
 
   @Autowired

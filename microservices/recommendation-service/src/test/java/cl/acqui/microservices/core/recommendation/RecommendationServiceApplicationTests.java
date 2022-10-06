@@ -20,7 +20,7 @@ import cl.acqui.api.event.Event;
 import cl.acqui.api.exceptions.InvalidInputException;
 import cl.acqui.microservices.core.recommendation.persistence.RecommendationRepository;
 
-@SpringBootTest(webEnvironment = RANDOM_PORT)
+@SpringBootTest(webEnvironment = RANDOM_PORT, properties = {"eureka.client.enabled=false"})
 class RecommendationServiceApplicationTests extends MongoDbTestBase {
 
   @Autowired

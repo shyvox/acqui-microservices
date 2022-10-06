@@ -22,7 +22,7 @@ import cl.acqui.api.exceptions.InvalidInputException;
 import cl.acqui.api.exceptions.NotFoundException;
 import cl.acqui.microservices.composite.product.services.ProductCompositeIntegration;
 
-@SpringBootTest(webEnvironment = RANDOM_PORT)
+@SpringBootTest(webEnvironment = RANDOM_PORT, properties = {"eureka.client.enabled=false"})
 class ProductCompositeServiceApplicationTests {
 
   private static final int PRODUCT_ID_OK = 1;
@@ -80,6 +80,7 @@ class ProductCompositeServiceApplicationTests {
             .jsonPath("$.path").isEqualTo("/product-composite/" + PRODUCT_ID_INVALID)
             .jsonPath("$.message").isEqualTo("INVALID: " + PRODUCT_ID_INVALID);
   }
+
 
   private WebTestClient.BodyContentSpec getAndVerifyProduct(int productId, HttpStatus expectedStatus) {
     return client.get()

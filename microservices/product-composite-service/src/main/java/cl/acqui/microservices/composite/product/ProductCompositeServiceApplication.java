@@ -16,8 +16,10 @@ import org.springframework.boot.actuate.health.CompositeReactiveHealthContributo
 import org.springframework.boot.actuate.health.ReactiveHealthContributor;
 import org.springframework.boot.actuate.health.ReactiveHealthIndicator;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.web.reactive.function.client.WebClient;
 import reactor.core.scheduler.Scheduler;
 import reactor.core.scheduler.Schedulers;
 import cl.acqui.microservices.composite.product.services.ProductCompositeIntegration;
@@ -40,11 +42,6 @@ public class ProductCompositeServiceApplication {
   @Value("${api.common.contact.url}")     String apiContactUrl;
   @Value("${api.common.contact.email}")   String apiContactEmail;
 
-  /**
-   * Will exposed on $HOST:$PORT/swagger-ui.html
-   *
-   * @return the common OpenAPI documentation
-   */
   @Bean
   public OpenAPI getOpenApiDocumentation() {
     return new OpenAPI()
@@ -95,6 +92,12 @@ public class ProductCompositeServiceApplication {
     registry.put("review", () -> integration.getReviewHealth());
 
     return CompositeReactiveHealthContributor.fromMap(registry);
+  }
+
+  @Bean
+  @LoadBalanced
+  public WebClient.Builder loadBalancedWebClientBuilder() {
+    return WebClient.builder();
   }
 
   public static void main(String[] args) {

@@ -20,7 +20,7 @@ import cl.acqui.api.event.Event;
 import cl.acqui.api.exceptions.InvalidInputException;
 import cl.acqui.microservices.core.product.persistence.ProductRepository;
 
-@SpringBootTest(webEnvironment = RANDOM_PORT)
+@SpringBootTest(webEnvironment = RANDOM_PORT, properties = {"eureka.client.enabled=false"})
 class ProductServiceApplicationTests extends MongoDbTestBase {
 
   @Autowired
