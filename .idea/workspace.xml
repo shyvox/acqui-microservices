@@ -4,6 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="c5c8026f-f978-43fd-8164-b4fd6bb4e0d3" name="Changes" comment="first commit">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.0/executionHistory/executionHistory.bin" afterDir="false" />
@@ -44,6 +45,9 @@
       <change beforePath="$PROJECT_DIR$/test-everything.bash" beforeDir="false" afterPath="$PROJECT_DIR$/test-everything.bash" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/util/build.gradle" afterDir="false" />
     </list>
+=======
+    <list default="true" id="c5c8026f-f978-43fd-8164-b4fd6bb4e0d3" name="Changes" comment="first commit" />
+>>>>>>> origin/develop
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
