@@ -26,7 +26,7 @@ bin/
 
 ### VS Code ###
 .vscode/
-
+/gradle
 ### IntelliJ IDEA ###
 .idea
 *.iws
